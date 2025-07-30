@@ -39,8 +39,8 @@
 <h2>🛡️ Cybersecurity Case Studies & Reports</h2>
 
 - [📄 Data Leak Worksheet – NIST AC-6 Analysis (PDF)](./Activity%20Template_%20Data%20leak%20worksheet.pdf)  
-- [🌐 SYN Flood Attack Incident Report (DOCX)](./Cybersecurity-incident-report.docx)  
-- [📡 DNS/ICMP Network Failure Report (DOCX)](./Cybersecurity-incident-report-network-traffic-analysis.docx)
+- [🌐 SYN Flood Attack Incident Report (PDF)](./Cybersecurity-incident-report.pdf)  
+- [📡 DNS/ICMP Network Failure Report (PDF)](./Cybersecurity-incident-report-network-traffic-analysis.pdf)
 
 <h2>📄 Certificates & Internships</h2>
 
@@ -53,7 +53,7 @@
 
 <h2>🧭 About Me / Career Goals</h2>
 
-- [🗂️ Personalized Cybersecurity Career Statements (DOCX)](./Personalized_Cybersecurity_Professional_Statements.docx)
+- [🗂️ Personalized Cybersecurity Career Statements (PDF)](./Personalized_Cybersecurity_Professional_Statements.pdf)
 
 <h2>🎓 Education</h2>
 
