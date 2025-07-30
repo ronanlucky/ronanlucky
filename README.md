@@ -34,7 +34,7 @@
   - [View Lab PDF](./Apply%20filters%20to%20SQL%20queries.pdf)
 
 - <b>Google Cybersecurity Glossary</b>  
-  - [Download Glossary (DOCX)](./Google-Cybersecurity-Certificate-glossary.docx)
+  - [Download Glossary (DOCX)](./Google-Cybersecurity-Certificate-glossary.pdf)
 
 <h2>🛡️ Cybersecurity Case Studies & Reports</h2>
 
