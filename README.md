@@ -3,39 +3,57 @@
   <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/">Graduate Student @ Northeastern</a>
 </h1>
 
-<h2>👨‍💻 Projects & Labs:</h2>
+<h2>🚀 Projects</h2>
 
 - <b>Fake Job Posting Detection (Machine Learning)</b>  
-  - [Detecting fake online recruitment listings using Python, Neural Networks & Random Forest](https://github.com/ronanlucky/Fake-Job-Posting-Detection)
+  - Detected fraudulent job listings using neural networks and Random Forest  
+  - [GitHub Repo](https://github.com/ronanlucky/Fake-Job-Posting-Detection)
 
-- <b>Linux Server Configuration & Security</b>  
-  - Configured DNS, web, proxy, mail, and file servers on Linux  
-  - Implemented firewalls, VPNs, and intrusion prevention systems
+<h2>📚 Google Professional Cybersecurity Certification</h2>
 
-- <b>Network Attacks & Defense Simulations</b>  
-  - Simulated sniffing, ARP poisoning, MITM attacks  
-  - Applied defensive techniques like secure DNS and web server hardening
+- <b>Foundations of Cybersecurity</b>  
+  - Covered CIA triad, risk frameworks, threat models  
+  - [View Certificate](https://coursera.org/verify/FNTNZKCDRVMY)
 
-- <b>IAM & Enterprise Security Strategy – Tata Cyber Simulation</b>  
-  - Designed IAM systems and lifecycle management  
-  - Developed a security implementation roadmap
+- <b>Play It Safe: Manage Security Risks</b>  
+  - Conducted security risk assessments and implemented mitigation plans  
+  - [View Certificate](https://coursera.org/verify/DT6S1IY4EMF6)
 
-- <b>Security Breach Analysis – Deloitte Cyber Simulation</b>  
-  - Investigated breach scenarios and analyzed suspicious web activity logs
+- <b>Connect & Protect: Networks and Network Security</b>  
+  - Studied TCP/IP, subnets, firewalls, and VPN configurations  
+  - [View Certificate](https://coursera.org/verify/DKAND3ULAGT0)
 
-<h2>📜 Certifications</h2>
+- <b>Tools of the Trade: Linux and SQL</b>  
+  - Worked on Linux CLI, process management, and SQL querying  
+  - [View Certificate](https://coursera.org/verify/8HYG23DYBTTO)  
+  - [🐧 Linux Command Guide (PDF)](./guides/Reference%20Guide%20Linux.pdf)  
+  - [🧮 SQL Reference Sheet (PDF)](./guides/Reference%20Guide%20SQL.pdf)
 
-- ✅ [Foundations of Cybersecurity – Google/Coursera](https://coursera.org/verify/FNTNZKCDRVMY)  
-- ✅ [Play It Safe: Manage Security Risks – Google/Coursera](https://coursera.org/verify/DT6S1IY4EMF6)  
-- ✅ [Connect and Protect: Networks and Network Security – Google/Coursera](https://coursera.org/verify/DKAND3ULAGT0)  
-- ✅ [Tools of the Trade: Linux and SQL – Google/Coursera](https://coursera.org/verify/8HYG23DYBTTO)
+- <b>SQL Filtering Lab: Login Anomaly Detection</b>  
+  - Used SQL filters (WHERE, AND, OR, NOT, LIKE) to isolate suspicious login activity  
+  - [View Lab PDF](./guides/Apply%20filters%20to%20SQL%20queries.pdf)
 
-<h2>📚 Resources & Guides</h2>
+- <b>Google Cybersecurity Glossary</b>  
+  - [Download Glossary (DOCX)](./assets/Google-Cybersecurity-Certificate-glossary.docx)
 
-- [📘 Google Cybersecurity Glossary](./assets/Google-Cybersecurity-Certificate-glossary.docx)  
-- [🐧 Linux Command Guide (PDF)](./assets/Reference%20Guide%20Linux.pdf)  
-- [🧮 SQL Reference Sheet (PDF)](./assets/Reference%20Guide%20SQL.pdf)  
-- [🗂️ Cybersecurity Career Statements (DOCX)](./assets/Personalized_Cybersecurity_Professional_Statements.docx)
+<h2>🛡️ Cybersecurity Case Studies & Reports</h2>
+
+- [📄 Data Leak Worksheet – NIST AC-6 Analysis (PDF)](./docs/Activity%20Template_%20Data%20leak%20worksheet.pdf)  
+- [🌐 SYN Flood Attack Incident Report (DOCX)](./docs/Cybersecurity-incident-report.docx)  
+- [📡 DNS/ICMP Network Failure Report (DOCX)](./docs/Cybersecurity-incident-report-network-traffic-analysis.docx)
+
+<h2>📄 Certificates & Internships</h2>
+
+- ✅ [Deloitte Cybersecurity Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_4yHEByFJwhmmE2ekD_1752751473837_completion_certificate.pdf)  
+- ✅ [Tata Cybersecurity Analyst Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_4yHEByFJwhmmE2ekD_1752754071792_completion_certificate.pdf)
+
+- [🏢 NIELIT Cybersecurity Internship Certificate (PDF)](./certs/Cyber%20security%20NIELIT%20internship.pdf)  
+- [🌐 Quizaro Web Development Internship Certificate (PDF)](./certs/Quizaro%20web%20development%20internship.pdf)  
+- [📊 Rejolt Data Science Internship Certificate (PDF)](./certs/Rejolt%20data%20science%20internship.pdf)
+
+<h2>🧭 About Me / Career Goals</h2>
+
+- [🗂️ Personalized Cybersecurity Career Statements (DOCX)](./docs/Personalized_Cybersecurity_Professional_Statements.docx)
 
 <h2>🎓 Education</h2>
 
