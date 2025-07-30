@@ -26,34 +26,34 @@
 - <b>Tools of the Trade: Linux and SQL</b>  
   - Worked on Linux CLI, process management, and SQL querying  
   - [View Certificate](https://coursera.org/verify/8HYG23DYBTTO)  
-  - [🐧 Linux Command Guide (PDF)](./guides/Reference%20Guide%20Linux.pdf)  
-  - [🧮 SQL Reference Sheet (PDF)](./guides/Reference%20Guide%20SQL.pdf)
+  - [🐧 Linux Command Guide (PDF)](./Reference%20Guide%20Linux.pdf)  
+  - [🧮 SQL Reference Sheet (PDF)](./Reference%20Guide%20SQL.pdf)
 
 - <b>SQL Filtering Lab: Login Anomaly Detection</b>  
   - Used SQL filters (WHERE, AND, OR, NOT, LIKE) to isolate suspicious login activity  
-  - [View Lab PDF](./guides/Apply%20filters%20to%20SQL%20queries.pdf)
+  - [View Lab PDF](./Apply%20filters%20to%20SQL%20queries.pdf)
 
 - <b>Google Cybersecurity Glossary</b>  
-  - [Download Glossary (DOCX)](./assets/Google-Cybersecurity-Certificate-glossary.docx)
+  - [Download Glossary (DOCX)](./Google-Cybersecurity-Certificate-glossary.docx)
 
 <h2>🛡️ Cybersecurity Case Studies & Reports</h2>
 
-- [📄 Data Leak Worksheet – NIST AC-6 Analysis (PDF)](./docs/Activity%20Template_%20Data%20leak%20worksheet.pdf)  
-- [🌐 SYN Flood Attack Incident Report (DOCX)](./docs/Cybersecurity-incident-report.docx)  
-- [📡 DNS/ICMP Network Failure Report (DOCX)](./docs/Cybersecurity-incident-report-network-traffic-analysis.docx)
+- [📄 Data Leak Worksheet – NIST AC-6 Analysis (PDF)](./Activity%20Template_%20Data%20leak%20worksheet.pdf)  
+- [🌐 SYN Flood Attack Incident Report (DOCX)](./Cybersecurity-incident-report.docx)  
+- [📡 DNS/ICMP Network Failure Report (DOCX)](./Cybersecurity-incident-report-network-traffic-analysis.docx)
 
 <h2>📄 Certificates & Internships</h2>
 
 - ✅ [Deloitte Cybersecurity Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_4yHEByFJwhmmE2ekD_1752751473837_completion_certificate.pdf)  
 - ✅ [Tata Cybersecurity Analyst Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_4yHEByFJwhmmE2ekD_1752754071792_completion_certificate.pdf)
 
-- [🏢 NIELIT Cybersecurity Internship Certificate (PDF)](./certs/Cyber%20security%20NIELIT%20internship.pdf)  
-- [🌐 Quizaro Web Development Internship Certificate (PDF)](./certs/Quizaro%20web%20development%20internship.pdf)  
-- [📊 Rejolt Data Science Internship Certificate (PDF)](./certs/Rejolt%20data%20science%20internship.pdf)
+- [🏢 NIELIT Cybersecurity Internship Certificate (PDF)](./Cyber%20security%20NIELIT%20internship.pdf)  
+- [🌐 Quizaro Web Development Internship Certificate (PDF)](./Quizaro%20web%20development%20internship.pdf)  
+- [📊 Rejolt Data Science Internship Certificate (PDF)](./Rejolt%20data%20science%20internship.pdf)
 
 <h2>🧭 About Me / Career Goals</h2>
 
-- [🗂️ Personalized Cybersecurity Career Statements (DOCX)](./docs/Personalized_Cybersecurity_Professional_Statements.docx)
+- [🗂️ Personalized Cybersecurity Career Statements (DOCX)](./Personalized_Cybersecurity_Professional_Statements.docx)
 
 <h2>🎓 Education</h2>
 
