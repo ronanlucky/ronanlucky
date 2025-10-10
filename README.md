@@ -1,5 +1,5 @@
 <h1>Hi, I'm Ronan! <br/>
-  <a href="https://github.com/ronanlucky">Cybersecurity Professional</a>, 
+  <a href="https://github.com/ronanlucky">Cybersecurity Student</a>, 
   <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/">MS Student @ Northeastern</a>
 </h1>
 
