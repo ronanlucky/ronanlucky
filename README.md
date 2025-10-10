@@ -1,81 +1,151 @@
-<h1>Hi, I'm Ronan! <br/>
-  <a href="https://github.com/ronanlucky">Cybersecurity Enthusiast</a>, 
-  <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/">Graduate Student @ Northeastern</a>
-</h1>
+# SOC Automation Project with AI-Powered Threat Analysis
 
-<h2>🚀 Projects</h2>
+Automated security operations center (SOC) pipeline that detects, analyzes, and responds to security threats using Splunk SIEM, n8n orchestration, and OpenAI GPT-4.
 
-- <b>Fake Job Posting Detection (Machine Learning)</b>  
-  - Detected fraudulent job listings using neural networks and Random Forest  
-  - [GitHub Repo](https://github.com/ronanlucky/Fake-Job-Posting-Detection)
+## 🎯 Project Overview
+**Course**: CS-5770 Cybersecurity - Northeastern University  
+**Date**: October 2024  
+**Author**: Ronan Kongala
 
-<h2>📚 Google Professional Cybersecurity Certification</h2>
+This project implements an end-to-end security monitoring pipeline that automatically:
+- Detects failed authentication attempts (Event ID 4625)
+- Analyzes threats using AI (ChatGPT/OpenAI)
+- Maps attacks to MITRE ATT&CK framework
+- Sends intelligent notifications via Slack
 
-- <b>Foundations of Cybersecurity</b>  
-  - Covered CIA triad, risk frameworks, threat models  
-  - [View Certificate](https://coursera.org/verify/FNTNZKCDRVMY)
+## 🏗️ Architecture
 
-- <b>Play It Safe: Manage Security Risks</b>  
-  - Conducted security risk assessments and implemented mitigation plans  
-  - [View Certificate](https://coursera.org/verify/DT6S1IY4EMF6)
+### Network Configuration
+- **Windows 10 VM**: 192.168.116.130 (Event source)
+- **Splunk VM**: 192.168.116.128 (SIEM)
+- **n8n VM**: 192.168.116.133 (Automation)
 
-- <b>Connect & Protect: Networks and Network Security</b>  
-  - Studied TCP/IP, subnets, firewalls, and VPN configurations  
-  - [View Certificate](https://coursera.org/verify/DKAND3ULAGT0)
+### Technology Stack
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| Event Source | Windows 10 + Sysmon | Generate security events |
+| SIEM | Splunk Enterprise | Log aggregation and alerting |
+| Orchestration | n8n (Docker) | Workflow automation |
+| Analysis | OpenAI GPT-4 | Threat intelligence |
+| Notification | Slack | Security alerts |
 
-- <b>Tools of the Trade: Linux and SQL</b>  
-  - Worked on Linux CLI, process management, and SQL querying  
-  - [View Certificate](https://coursera.org/verify/8HYG23DYBTTO)  
-  - [🐧 Linux Command Guide (PDF)](./Reference%20Guide%20Linux.pdf)  
-  - [🧮 SQL Reference Sheet (PDF)](./Reference%20Guide%20SQL.pdf)
+## 📸 Implementation Flow (Event Journey)
 
-- <b>SQL Filtering Lab: Login Anomaly Detection</b>  
-  - Used SQL filters (WHERE, AND, OR, NOT, LIKE) to isolate suspicious login activity  
-  - [View Lab PDF](./Apply%20filters%20to%20SQL%20queries.pdf)
+### Step 1: Windows Infrastructure Setup
+![Windows IP Configuration](./screenshots/10-windows-ip-configuration.png.png)
+*Windows VM network configuration (192.168.116.130)*
 
-- <b>Google Cybersecurity Glossary</b>  
-  - [Download Glossary (PDF)](./Google-Cybersecurity-Certificate-glossary.pdf)
+![Windows Security Services](./screenshots/06-windows-security-services.png.png)
+*Windows security services running and monitoring*
 
-<h2>🛡️ Cybersecurity Case Studies & Reports</h2>
+### Step 2: Event Generation & Collection
+![Failed Login Generation](./screenshots/09-failed-login-generation.png.png)
+*PowerShell script generating test failed authentication events*
 
-- [📄 Data Leak Worksheet – NIST AC-6 Analysis (PDF)](./Activity%20Template_%20Data%20leak%20worksheet.pdf)  
-- [🌐 SYN Flood Attack Incident Report (PDF)](./Cybersecurity-incident-report.pdf)  
-- [📡 DNS/ICMP Network Failure Report (PDF)](./Cybersecurity-incident-report-network-traffic-analysis.pdf)
+![Event Detection](./screenshots/07-windows-event-viewer-4625.png.png)
+*Windows Event Viewer showing 27 captured failed login attempts (Event ID 4625)*
 
-<h2>📄 Certificates & Internships</h2>
+![Splunk Forwarder Status](./screenshots/08-splunk-forwarder-status.png.png)
+*Splunk Universal Forwarder running on port 9997*
 
-- ✅ [Deloitte Cybersecurity Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_4yHEByFJwhmmE2ekD_1752751473837_completion_certificate.pdf)  
-- ✅ [Tata Cybersecurity Analyst Simulation – Forage (PDF)](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_4yHEByFJwhmmE2ekD_1752754071792_completion_certificate.pdf)
+### Step 3: SIEM Processing
+![Splunk Login](./screenshots/11-splunk-login-page.png.png)
+*Splunk Enterprise login interface*
 
-- [🏢 NIELIT Cybersecurity Internship Certificate (PDF)](./Cyber%20security%20NIELIT%20internship.pdf)  
-- [🌐 Quizaro Web Development Internship Certificate (PDF)](./Quizaro%20web%20development%20internship.pdf)  
-- [📊 Rejolt Data Science Internship Certificate (PDF)](./Rejolt%20data%20science%20internship.pdf)
+![Splunk Dashboard](./screenshots/12-splunk-dashboard-main.png.webp)
+*Splunk main dashboard showing Search & Reporting capabilities*
 
-<h2>🧭 About Me / Career Goals</h2>
+![Splunk Search](./screenshots/14-splunk-search-failed-logins.png.png)
+*Splunk detecting 5 failed authentication events with Event ID 4625*
 
-- [🗂️ Personalized Cybersecurity Career Statements (PDF)](./Personalized_Cybersecurity_Professional_Statements.pdf)
+![Splunk Alert Configuration](./screenshots/15-splunk-alert-configuration.png.png)
+*Configured alert "test-brute-force" set to trigger on failed logins*
 
-<h2>🎓 Education</h2>
+### Step 4: Automation & AI Analysis
+![n8n Execution Success](./screenshots/25-n8n-execution-success.png.png)
+*n8n workflow showing 5 successful executions with processing times*
 
-- **MS Cybersecurity (Fall 2025)** – Northeastern University, Boston  
-- **B.Tech in AI & Data Science (2021–2025)** – Vardhaman College of Engineering
+### Step 5: Alert Notification
+![Slack Alert Message](./screenshots/32-slack-alert-message.png.png)
+*AI-analyzed security alert delivered to Slack #alerts channel*
 
-<h2>📫 Connect With Me</h2>
+![Slack Alert Details](./screenshots/33-slack-alert-details.png.png)
+*Detailed threat analysis with MITRE ATT&CK mapping and response recommendations*
 
-<p>
-  <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/0000FF/linkedin.png" width="28" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:kongalaronan@gmail.com" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/0000FF/gmail.png" width="28" alt="Email"/>
-  </a>
-  <a href="https://www.instagram.com/ron.an1007/" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/0000FF/instagram-new.png" width="28" alt="Instagram"/>
-  </a>
-</p>
+### Step 6: Troubleshooting
+![Disk Space Error](./screenshots/39-error-disk-space.png.png)
+*Splunk disk space issue encountered and resolved during implementation*
 
-<br/><br/>
+## 🔧 Challenges & Solutions
+| Challenge | Solution |
+|-----------|----------|
+| Splunk disk space (5GB requirement) | Modified config to 2GB minimum: `minFreeSpace = 2000` |
+| VM IP address changes (129→133) | Updated webhook URLs and documented static IP configuration |
+| n8n workflow persistence | Implemented Docker volumes for data retention |
+| Cross-VM communication | Consolidated services and verified network connectivity |
 
-<!--
-**ronanlucky/ronanlucky** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
+## 📊 Results & Metrics
+- **Detection Rate**: 100% of test events captured
+- **Detection Speed**: < 60 seconds from event to alert
+- **Processing Time**: Average 8.95 seconds (range: 35ms - 8.95s)
+- **Automation Success Rate**: 5/5 executions successful
+- **AI Analysis Accuracy**: Correctly identified severity and provided context
+
+### Key Achievements
+✅ Full pipeline automation from detection to notification  
+✅ AI correctly assessed threats and mapped to MITRE framework  
+✅ Zero false positives during testing  
+✅ Successfully integrated 6 different technologies  
+
+## 🛠️ Setup Requirements
+
+### Hardware Requirements
+- Host machine: 32GB RAM minimum
+- Storage: 150GB free space
+- Processor: 8+ cores recommended
+
+### Software Requirements
+- VMware Workstation Pro
+- Windows 10 ISO
+- Ubuntu Server 24.04 ISO
+- Docker & Docker Compose
+- Splunk Enterprise License
+
+### API Keys Required
+- OpenAI API key
+- Slack Bot Token
+- Slack Workspace access
+
+## 💡 Key Learnings
+1. **SIEM Management**: Disk space management is critical for Splunk operation
+2. **Network Architecture**: Static IP assignment prevents workflow disruption
+3. **Container Persistence**: Docker volumes essential for maintaining configurations
+4. **API Integration**: Webhook reliability depends on network stability
+5. **Troubleshooting**: Systematic approach to debugging cross-platform integrations
+
+## 🚀 Future Improvements
+- [ ] Add VirusTotal API for malware hash analysis
+- [ ] Implement automated containment actions
+- [ ] Expand detection rules (PowerShell, privilege escalation)
+- [ ] Create Splunk dashboard for SOC metrics
+- [ ] Add email notifications alongside Slack
+- [ ] Implement TheHive for case management
+
+## 🎓 Skills Demonstrated
+- **SIEM Deployment**: Splunk Enterprise configuration and management
+- **Security Automation**: n8n workflow orchestration
+- **API Integration**: OpenAI, Slack, webhook implementations
+- **Container Management**: Docker deployment and troubleshooting
+- **Network Configuration**: Static IP, cross-VM communication
+- **Log Analysis**: SPL queries, event correlation
+- **Incident Response**: Automated triage and notification
+- **Problem Solving**: Systematic debugging and documentation
+
+## 📧 Contact
+**Ronan Kongala**  
+MS Cybersecurity @ Northeastern University  
+Email: ronanlucky@gmail.com  
+LinkedIn: [linkedin.com/in/ronan-kongala](https://www.linkedin.com/in/ronan-kongala-99068a240/)
+
+---
+*This project was completed as part of CS-5770 coursework and demonstrates practical implementation of enterprise SOC capabilities.*
