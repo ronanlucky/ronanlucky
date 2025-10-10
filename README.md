@@ -1,6 +1,6 @@
 <h1>Hi, I'm Ronan! <br/>
-  <a href="https://github.com/ronanlucky">Cybersecurity Student</a>, 
-  <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/">MS @ Northeastern</a>
+  <a href="https://github.com/ronanlucky">Cybersecurity Professional</a>, 
+  <a href="https://www.linkedin.com/in/ronan-kongala-99068a240/">MS Student @ Northeastern</a>
 </h1>
 
 <h2>🚀 Featured Projects</h2>
@@ -102,10 +102,10 @@
 
 - **MS Cybersecurity** (2024–2025) – Northeastern University, Boston
   - Relevant Coursework: Network Security, Digital Forensics, Secure Software Development
-  - GPA: 3.8/4.0
 
 - **B.Tech AI & Data Science** (2021–2025) – Vardhaman College of Engineering
   - Focus: Machine Learning, Data Mining, Statistical Analysis
+  - GPA: 3.8/4.0
   - Capstone: AI-based Intrusion Detection System
 
 <h2>💼 Technical Skills</h2>
@@ -114,10 +114,6 @@
 **Programming**: Python • SQL • Bash • PowerShell • JavaScript  
 **Platforms**: Linux • Windows Server • Docker • VMware • AWS  
 **Frameworks**: MITRE ATT&CK • NIST • CIS Controls • OWASP Top 10  
-
-<h2>📈 GitHub Stats</h2>
-
-![Ronan's GitHub stats](https://github-readme-stats.vercel.app/api?username=ronanlucky&show_icons=true&theme=dark)
 
 <h2>📫 Connect With Me</h2>
 <p>
