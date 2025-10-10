@@ -84,19 +84,27 @@
 - [Cybersecurity Glossary](./Google-Cybersecurity-Certificate-glossary.pdf)
 </details>
 
-<h2>🛡️ Security Research & Case Studies</h2>
+<h2>🛡️ SOC Automation Project - Technical Deep Dive</h2>
 
-- **Data Breach Analysis**: [NIST AC-6 Control Assessment](./Activity%20Template_%20Data%20leak%20worksheet.pdf)
-  - Analyzed insider threat scenarios and access control failures
-  - Recommended compensating controls and monitoring strategies
+- **Detection Engineering**: [Windows to Splunk Pipeline](https://github.com/ronanlucky/SOC-Automation-Lab)
+  - Configured Splunk Universal Forwarder to capture Windows Event ID 4625 (Failed Authentication)
+  - Created custom SPL queries for brute force detection with 3+ attempts threshold
+  - Achieved <60 second detection time from event generation to alert
 
-- **DDoS Attack Response**: [SYN Flood Incident Report](./Cybersecurity-incident-report.pdf)
-  - Documented attack timeline and impact assessment
-  - Implemented rate limiting and SYN cookies mitigation
+- **Automation & Orchestration**: [n8n Workflow Implementation](https://github.com/ronanlucky/SOC-Automation-Lab#automation-workflow)
+  - Built webhook-based integration between Splunk and n8n using Docker containers
+  - Orchestrated 5-node workflow: Webhook → AI Analysis → Threat Intel → Notification
+  - Maintained 100% success rate across 5 test executions (avg 8.95s processing)
 
-- **Network Forensics**: [DNS/ICMP Analysis](./Cybersecurity-incident-report-network-traffic-analysis.pdf)
-  - Investigated DNS tunneling and ICMP covert channels
-  - Created detection rules for anomalous network behavior
+- **AI-Powered Threat Analysis**: [OpenAI Integration](https://github.com/ronanlucky/SOC-Automation-Lab#ai-analysis--notification)
+  - Integrated GPT-4 API for automated security event analysis and contextualization
+  - Implemented MITRE ATT&CK mapping (T1110 - Brute Force) with severity scoring
+  - Generated actionable recommendations: account verification, pattern detection, lockout policies
+
+- **Infrastructure & Troubleshooting**: [3-VM Architecture](https://github.com/ronanlucky/SOC-Automation-Lab#challenges--solutions)
+  - Resolved Splunk disk space constraints by modifying minFreeSpace to 2GB
+  - Fixed cross-VM communication issues through static IP configuration
+  - Implemented Docker volumes for n8n workflow persistence
 
 <h2>🎓 Education</h2>
 
