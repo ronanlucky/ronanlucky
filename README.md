@@ -65,8 +65,11 @@
 
 <h2>📚 Certifications & Training</h2>
 
+- **[Google Professional Cybersecurity Certificate](https://www.coursera.org/account/accomplishments/professional-cert/NJ06LAXOT3R4)** (Completed 2025)
+  - 8-course comprehensive program covering security fundamentals, network security, incident response, and Python automation
+
 <details>
-<summary><b>Google Professional Cybersecurity Certificate (8 Courses)</b></summary>
+<summary><b>View Individual Course Certificates</b></summary>
 <br>
 
 - **Foundations of Cybersecurity**: [Certificate](https://coursera.org/verify/FNTNZKCDRVMY)
