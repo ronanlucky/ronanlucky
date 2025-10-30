@@ -11,26 +11,23 @@
   - Achieved <60s detection and <9s processing time for security incidents
   - [GitHub Repo](https://github.com/ronanlucky/SOC-Automation-Lab) | [View Demo](https://github.com/ronanlucky/SOC-Automation-Lab#implementation-flow-event-journey)
 
+- <b>CS-5770: Software Vulnerabilities & Security</b>
+  - Hands-on security challenges: network forensics, web exploitation, privilege escalation
+  - Documented methodologies for packet analysis, SQL injection, command injection, Unix security
+  - Tools: Wireshark, Nmap, Burp Suite, SQL injection techniques, privilege escalation
+  - [GitHub Repo](https://github.com/ronanlucky/CS-5770-Software-Vulnerabilities-Security)
+
 - <b>Fake Job Posting Detection (Machine Learning)</b>  
   - Detected fraudulent job listings using neural networks and Random Forest
   - Achieved 98% accuracy in identifying scam postings
   - Technologies: Python, TensorFlow, Scikit-learn, Pandas
   - [GitHub Repo](https://github.com/ronanlucky/Fake-Job-Posting-Detection)
 
-- <b>Network Security Analysis Lab</b>
-  - Configured firewalls and VPNs for secure network architecture
-  - Implemented IDS/IPS using Snort and analyzed packet captures with Wireshark
-  - Documented in [Network Security Report](./Cybersecurity-incident-report-network-traffic-analysis.pdf)
-
-- <b>SQL Injection & Database Security</b>
-  - Created SQL injection detection system using custom filters
-  - Analyzed login anomalies and suspicious database queries
-  - [View Security Analysis](./Apply%20filters%20to%20SQL%20queries.pdf)
-
-- <b>Linux Security Hardening Scripts</b>
-  - Automated security configurations for Ubuntu/CentOS servers
-  - Implemented CIS benchmarks and custom security policies
-  - [Linux Security Guide](./Reference%20Guide%20Linux.pdf)
+- <b>Security Analysis & Hardening Projects</b>
+  - Network Security: Configured firewalls, VPNs, and IDS/IPS using Snort with Wireshark analysis
+  - Web Security: Built SQL injection detection system and analyzed database security vulnerabilities
+  - Linux Hardening: Automated security configurations implementing CIS benchmarks
+  - [Network Security Report](./Cybersecurity-incident-report-network-traffic-analysis.pdf) | [SQL Analysis](./Apply%20filters%20to%20SQL%20queries.pdf) | [Linux Guide](./Reference%20Guide%20Linux.pdf)
 
 <h2>🏆 Professional Experience</h2>
 
@@ -87,32 +84,10 @@
 - [Cybersecurity Glossary](./Google-Cybersecurity-Certificate-glossary.pdf)
 </details>
 
-<h2>🛡️ SOC Automation Project - Technical Deep Dive</h2>
-
-- **Detection Engineering**: [Windows to Splunk Pipeline](https://github.com/ronanlucky/SOC-Automation-Lab)
-  - Configured Splunk Universal Forwarder to capture Windows Event ID 4625 (Failed Authentication)
-  - Created custom SPL queries for brute force detection with 3+ attempts threshold
-  - Achieved <60 second detection time from event generation to alert
-
-- **Automation & Orchestration**: [n8n Workflow Implementation](https://github.com/ronanlucky/SOC-Automation-Lab#automation-workflow)
-  - Built webhook-based integration between Splunk and n8n using Docker containers
-  - Orchestrated 5-node workflow: Webhook → AI Analysis → Threat Intel → Notification
-  - Maintained 100% success rate across 5 test executions (avg 8.95s processing)
-
-- **AI-Powered Threat Analysis**: [OpenAI Integration](https://github.com/ronanlucky/SOC-Automation-Lab#ai-analysis--notification)
-  - Integrated GPT-4 API for automated security event analysis and contextualization
-  - Implemented MITRE ATT&CK mapping (T1110 - Brute Force) with severity scoring
-  - Generated actionable recommendations: account verification, pattern detection, lockout policies
-
-- **Infrastructure & Troubleshooting**: [3-VM Architecture](https://github.com/ronanlucky/SOC-Automation-Lab#challenges--solutions)
-  - Resolved Splunk disk space constraints by modifying minFreeSpace to 2GB
-  - Fixed cross-VM communication issues through static IP configuration
-  - Implemented Docker volumes for n8n workflow persistence
-
 <h2>🎓 Education</h2>
 
 - **MS Cybersecurity** (2024–2025) – Northeastern University, Boston
-  - Relevant Coursework: Network Security, Digital Forensics, Secure Software Development
+  - Relevant Coursework: Software Vulnerabilities & Security (CS-5770), Network Forensics, Secure Software Development
 
 - **B.Tech AI & Data Science** (2021–2025) – Vardhaman College of Engineering
   - Focus: Machine Learning, Data Mining, Statistical Analysis
@@ -140,4 +115,4 @@
 </p>
 
 ---
-*Currently seeking Summer 2025 cybersecurity internship opportunities in Security Operations, Incident Response, or Security Engineering*
+*Currently seeking Summer 2026 cybersecurity internship opportunities in Security Operations, Incident Response, or Security Engineering*
