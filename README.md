@@ -17,6 +17,13 @@
   - Tools: Wireshark, Nmap, Burp Suite, SQL injection techniques, privilege escalation
   - [GitHub Repo](https://github.com/ronanlucky/CS-5770-Software-Vulnerabilities-Security)
 
+- <b>CY5001: Cybersecurity Technologies, Threats & Defense</b>
+  - Comprehensive coursework in Linux security, cryptography, and network defense
+  - Implemented GPG/PGP encryption, OpenSSL operations, digital signatures, and hybrid encryption
+  - Built automated security scripts for system hardening and threat detection
+  - Skills: Linux administration, Bash scripting, AES/RSA encryption, digital envelopes, log analysis
+  - [GitHub Repo](https://github.com/ronanlucky/CY5001-Cybersecurity-Skills)
+
 - <b>Fake Job Posting Detection (Machine Learning)</b>  
   - Detected fraudulent job listings using neural networks and Random Forest
   - Achieved 98% accuracy in identifying scam postings
@@ -86,8 +93,9 @@
 
 <h2>🎓 Education</h2>
 
-- **MS Cybersecurity** (2024–2025) – Northeastern University, Boston
-  - Relevant Coursework: Software Vulnerabilities & Security (CS-5770), Network Forensics, Secure Software Development
+- **MS Cybersecurity** (2024–2027) – Northeastern University, Boston
+  - Relevant Coursework: Software Vulnerabilities & Security (CS-5770), Cybersecurity Technologies, Threats & Defense (CY5001), Network Forensics
+  - Focus: Applied cryptography, secure systems, threat analysis
 
 - **B.Tech AI & Data Science** (2021–2025) – Vardhaman College of Engineering
   - Focus: Machine Learning, Data Mining, Statistical Analysis
@@ -97,6 +105,7 @@
 <h2>💼 Technical Skills</h2>
 
 **Security Tools**: Splunk • Wireshark • Metasploit • Nmap • Burp Suite • Nessus  
+**Cryptography**: OpenSSL • GPG/PGP • AES • RSA • Digital Signatures  
 **Programming**: Python • SQL • Bash • PowerShell • JavaScript  
 **Platforms**: Linux • Windows Server • Docker • VMware • AWS  
 **Frameworks**: MITRE ATT&CK • NIST • CIS Controls • OWASP Top 10  
